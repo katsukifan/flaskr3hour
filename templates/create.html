@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>创建新文章</h1>
+<form method="post">
+    <label for="title">标题</label>
+    <input type="text" name="title">
+    <label for="content">内容</label>
+    <input type="text" name="content">
+    <input type="submit" value="创建新文章">
+</form>
+{% endblock %}
